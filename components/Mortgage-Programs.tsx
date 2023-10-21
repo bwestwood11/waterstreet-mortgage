@@ -86,7 +86,7 @@ const MortgagePrograms = () => {
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
           reiciendis ipsum quasi doloribus eligendi necessitatibus sunt optio
           magni iusto officiis! Aliquid, distinctio provident architecto a modi
-          nesciunt beatae officia eum?
+          nesciunt beatae officia eum??
         </p>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 max-6xl mx-auto mt-8">
           {programs.map((program, index) => (
