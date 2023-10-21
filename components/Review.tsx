@@ -19,14 +19,14 @@ const reviews = [
   {
     id: 2,
     name: "Dylan Rutledge",
-    text: "Very impressed with Brian and his team! I’ve had horror stories with other companies in the past. I can honestly say I will never go to another company again. They were on time, respectful, great customer service, and got the job done a lot quicker than I was expecting. Would highly recommend this company!",
+    text: "Very impressed with Brian and his team! I&apos;ve had horror stories with other companies in the past. I can honestly say I will never go to another company again. They were on time, respectful, great customer service, and got the job done a lot quicker than I was expecting. Would highly recommend this company!",
     date: 'a month ago',
     image: '/dylan.png'
   },
   {
     id: 3,
     name: "Sally Welch",
-    text: "Professional. Prompt. Friendly and nice. Extremely competitive rates! Don’t hesitate to hire competitive edge, junk removal… They did a super terrible job for me!! I sent out a request for the job on Sunday evening and they were at my house Tuesday morning.",
+    text: "Professional. Prompt. Friendly and nice. Extremely competitive rates! Don&apos;t hesitate to hire competitive edge, junk removal… They did a super terrible job for me!! I sent out a request for the job on Sunday evening and they were at my house Tuesday morning.",
     date: 'a month ago',
     image: '/sally.png'
   },
