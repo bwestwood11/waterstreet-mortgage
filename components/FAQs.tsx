@@ -44,7 +44,7 @@ const FAQ = () => {
       <AccordionItem value="item-3">
         <AccordionTrigger>How Much Home Can You Afford?</AccordionTrigger>
         <AccordionContent>
-          Yes. It's animated by default, but you can disable it if you prefer.
+          Yes. It&apos;s animated by default, but you can disable it if you prefer.
         </AccordionContent>
       </AccordionItem>
     </Accordion>
