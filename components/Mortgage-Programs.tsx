@@ -16,7 +16,7 @@ const montserrat = Montserrat({ subsets: ["latin"] });
 
 const programs = [
   {
-    name: "First Time Home Buyers",
+    name: "First Time Home Buyer",
     icon: BiSolidBuildingHouse,
     description: "lorem ipsum dolor sit amet",
   },
@@ -71,7 +71,9 @@ const MortgagePrograms = () => {
     <div className="w-full bg-white h-full flex py-16 px-6">
       <div className="max-w-6xl mx-auto w-full">
         <div className="flex max-w-md mb-4 mx-auto text-center justify-center gap-3 items-center">
-          <p className=" font-bold uppercase text-[#000080]">What&apos;s the Best</p>
+          <p className=" font-bold uppercase text-[#000080]">
+            What&apos;s the Best
+          </p>
           <div className="border-b lg:h-1/4 h-full border-2 border-[#000080] w-1/6" />
         </div>
         <h2
