@@ -47,7 +47,7 @@ const WhyUs = () => {
               commitment to a seamless mortgage experience is further reflected
               in our user-friendly loan portal, which simplifies the application
               and approval process. Additionally, we take great pride in our
-              Pre-Qualified Shining Star Hero's program, which provides special
+              Pre-Qualified Shining Star Hero&apos;s program, which provides special
               support to heroes with no existing realtor relationships, making
               your dream of homeownership a reality.
             </p>
