@@ -22,7 +22,7 @@ export default function CTA() {
             href="#"
             className="rounded-md bg-[#000080] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#000080] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#000080]"
           >
-            Let's talk
+            Let&apos;s talk
           </a>
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
             Learn more <span aria-hidden="true">→</span>
