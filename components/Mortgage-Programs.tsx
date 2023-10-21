@@ -18,11 +18,12 @@ const programs = [
   {
     name: "First Time Home Buyer",
     icon: BiSolidBuildingHouse,
-    description: "lorem ipsum dolor sit amet",
+    description: "A first-time homebuyer loan is a specialized mortgage program designed to assist individuals purchasing their first home. It typically offers favorable terms, including lower down payments and interest rates, to make homeownership more accessible for those who are new to the real estate market.",
   },
   {
     name: "Apply for Loan",
     icon: RiMoneyDollarCircleFill,
+    description: "To apply for a mortgage loan, one typically starts by gathering financial documents, including income and credit history details. Next, you submit an application to us, who we assesses your eligibility, and if approved, guide you through the home loan process, from pre-approval to closing on your new home."
   },
   {
     name: "Refinancing Your Home",
@@ -137,9 +138,9 @@ const MortgagePrograms = () => {
                 {programContent.name}
               </h2>
             )}
-            {programContent && <h2>{programContent.description}</h2>}
+            {programContent && <p className="text-gray-600 mt-3 leading-6">{programContent.description}</p>}
             <Link href="/mortgage-programs">
-              <div className="flex gap-2 items-center text-green-500 font-bold">
+              <div className="flex gap-2 items-center mt-8 text-green-500 font-bold">
                 <span>
                   <BiRightArrowAlt size="25" />
                 </span>
