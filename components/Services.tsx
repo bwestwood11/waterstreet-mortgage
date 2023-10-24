@@ -129,8 +129,8 @@ const ServiceCard: React.FC<{ service: Service }> = ({ service }) => {
           <div className="p-4 text-center">
             <h3 className="text-lg font-bold text-[#000080] mt-6">{service.name}</h3>
             <p className="mt-2 mb-6 text-base text-gray-600">{service.description}</p>
-            <Link href='/contact' className="mt-4 flex text-center text-sm items-center uppercase font-bold flex-row gap-2 text-[#000080] hover:underline">
-              Contact Us
+            <Link href='/contact' className="mt-4 flex text-center text-sm items-center uppercase font-bold flex-row gap-2 text-green-500 hover:underline">
+              Learn More
               <span>
                 <BiRightArrowAlt size="25" />
                 </span>

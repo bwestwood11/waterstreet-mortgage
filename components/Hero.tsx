@@ -33,10 +33,10 @@ const Hero = () => {
             Bringing Welcome Home, One Mortgage at a Time. Experience the difference with our friendly team dedicated to making your home ownership dreams come true. Welcome to Tampa Bay!   
             </p>
             <div className='flex flex-col sm:flex-row gap-4 mt-6'>
-                <Button size="lg" variant='default' className="w-3/4">
+                <Button size="lg" variant='default' className="w-3/4 font-bold">
                     Refinance a Home
                 </Button>
-                <Button size="lg" variant='outline' className="w-3/4">
+                <Button size="lg" variant='outline' className="w-3/4 font-bold">
                     Buy a Home
                 </Button>
             </div>

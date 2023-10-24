@@ -41,7 +41,10 @@ const WhyUs = () => {
               available 24/7 to provide you with a better buying experience. We
               understand that securing a mortgage can be a time-sensitive
               process, so we offer same-day pre-approvals to expedite your
-              journey to homeownership. What sets us apart is our genuine
+              journey to homeownership.
+            </p>
+            <p className="mt-5 text-sm leading-7 text-gray-600">
+              What sets us apart is our genuine
               passion for real estate; we love attending open houses and sharing
               our knowledge with you to help you find the perfect home. Our
               commitment to a seamless mortgage experience is further reflected
