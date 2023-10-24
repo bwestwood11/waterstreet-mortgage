@@ -7,8 +7,9 @@ type Props = {
 }
 
 const ListItem = ({post}: Props) => {
-
+ 
   const { id, title, date, cover_image, category, description } = post
+ console.log({ id, title, date, cover_image, category, description })
 
   return (
     <article
@@ -19,6 +20,8 @@ const ListItem = ({post}: Props) => {
       <Image
         src={cover_image}
         alt=""
+        width={500}
+        height={500}
         className="aspect-[16/9] w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
       />
       <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10" />

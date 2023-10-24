@@ -8,8 +8,8 @@ import Header from '@/components/Header'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Waterstreet Mortgage',
-  description: 'Mortgage broker in the downtown Tampa Bay area.',
+  title: 'Waterstreet Mortgage ',
+  description: 'Mortgage brokerage in the Tampa Bay area that specializes in a variety of loan programs.',
 }
 
 export default function RootLayout({

@@ -1,6 +1,7 @@
 import { compileMDX } from "next-mdx-remote/rsc";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import rehypeSlug from "rehype-slug";
+import rehypeHighlight from "rehype-highlight";
 import Video from "@/components/Video";
 import CustomImage from "@/components/CustomImage";
 
@@ -16,8 +17,9 @@ export async function getPostByName(
   fileName: string
 ): Promise<BlogPost | undefined> {
   const res = await fetch(
-    `https://raw.githubusercontent.com/bwestwood11/waterstreet-mortgage-blog-posts/main/${fileName}`,
-    {
+    `https://raw.githubusercontent.com/bwestwood11/waterstreet-blog-posts/main/${fileName}`,
+    
+    { cache: "no-cache",
       headers: {
         Accept: "application/vnd.github.v3+json",
         Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
@@ -25,9 +27,9 @@ export async function getPostByName(
       },
     }
   );
-
+  console.log("response from getPostName", res);
   if (!res.ok) return undefined;
-
+  
   const rawMDX = await res.text();
 
   if (rawMDX === "404: Not Found") return undefined;
@@ -81,8 +83,9 @@ export async function getPostByName(
 
 export async function getPostsMeta(): Promise<Meta[] | undefined> {
   const res = await fetch(
-    "https://api.github.com/repos/bwestwood11/waterstreet-mortgage-blog-posts/git/trees/main?recursive=1",
+    "https://api.github.com/repos/bwestwood11/waterstreet-blog-posts/git/trees/main?recursive=1",
     {
+        cache: "no-cache",
       headers: {
         Accept: "application/vnd.github.v3+json",
         Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
@@ -90,7 +93,7 @@ export async function getPostsMeta(): Promise<Meta[] | undefined> {
       },
     }
   );
-
+  console.log("response from getPostsMeta", res);
   if (!res.ok) return undefined;
 
   const repoFiletree: FileTree = await res.json();

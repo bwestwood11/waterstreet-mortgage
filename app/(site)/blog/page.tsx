@@ -5,10 +5,11 @@ import { Metadata } from "next";
 
 export default async function BlogPage() {
   const posts = await getPostsMeta();
-
+  console.log('posts', posts);
   if (!posts) {
     return <p>Sorry, no posts are available.</p>;
   }
+
 
   return (
     <div className="bg-white py-24 sm:py-32">
