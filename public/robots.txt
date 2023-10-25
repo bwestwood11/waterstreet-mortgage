@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.waterstreetmtg.com
+
+# Sitemaps
+Sitemap: https://www.waterstreetmtg.com/sitemap.xml

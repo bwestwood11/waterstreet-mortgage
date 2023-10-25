@@ -9,8 +9,10 @@ import { BiSolidBuildingHouse } from "react-icons/bi";
 import { TbHandFinger } from "react-icons/tb";
 import { RxAvatar } from "react-icons/rx";
 import Image from "next/image";
-import { BiRightArrowAlt } from "react-icons/bi";
+import { BiRightArrowAlt, BiCheck } from "react-icons/bi";
 import Link from "next/link";
+import {MdOutlineConstruction} from "react-icons/md";
+
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
@@ -28,18 +30,22 @@ const programs = [
   {
     name: "Refinancing Your Home",
     icon: BsHouse,
+    description: "Refinancing a home allows homeowners to secure a new mortgage with more favorable terms, often leading to lower monthly payments and potentially saving money in the long run. It's a smart financial strategy to consider when seeking to optimize your home financing."
   },
   {
     name: "Capital Management",
     icon: TbHandFinger,
+    description: "Capital management for home loans involves effectively handling and optimizing financial resources related to mortgage lending. It encompasses actions like prudent allocation of funds, risk assessment, and strategic decision-making to ensure the stability and profitability of a home loan portfolio for lenders or financial institutions. Efficient capital management is crucial in the housing finance industry to maintain healthy lending practices and manage potential risks."
   },
   {
     name: "Renovation House",
-    icon: RxAvatar,
+    icon: MdOutlineConstruction,
+    description: "Renovating a house is a transformative process that revitalizes and enhances a property, increasing its value and making it a more comfortable and aesthetically pleasing place to call home. Whether it's a small update or a complete overhaul, let us help you secure the appropriate loan necessary."
   },
   {
-    name: "Refinance Advisor",
-    icon: RxAvatar,
+    name: "Conventional Loans",
+    icon: BiCheck,
+    description: "These loans are typically offered by private lenders and banks, and they follow the guidelines set by Fannie Mae and Freddie Mac. Conventional loans are a popular choice for homebuyers with strong credit profiles and the ability to make a down payment."
   },
 ];
 
@@ -80,16 +86,13 @@ const MortgagePrograms = () => {
         <h2
           className={cn(
             montserrat.className,
-            "font-extrabold text-center text-4xl"
+            "text-4xl font-extrabold tracking-tight text-center text-gray-900 sm:text-5xl"
           )}
         >
           Mortgage Programs
         </h2>
         <p className="text-center leading-8 text-gray-600 mt-5 max-w-lg mx-auto">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
-          reiciendis ipsum quasi doloribus eligendi necessitatibus sunt optio
-          magni iusto officiis! Aliquid, distinctio provident architecto a modi
-          nesciunt beatae officia eum??
+        We take pride in offering the finest loan options available in the great state of Florida, providing our clients with top-notch financial solutions tailored to their specific needs. Our commitment to excellence sets us apart as the premier choice for those seeking the best in lending services.
         </p>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 max-6xl mx-auto mt-8">
           {programs.map((program, index) => (
@@ -138,7 +141,7 @@ const MortgagePrograms = () => {
                 {programContent.name}
               </h2>
             )}
-            {programContent && <p className="text-gray-600 mt-3 leading-6">{programContent.description}</p>}
+            {programContent && <p className="text-gray-600 mt-3 leading-7 tracking-tight">{programContent.description}</p>}
             <Link href="/mortgage-programs">
               <div className="flex gap-2 items-center mt-8 text-green-500 font-bold">
                 <span>

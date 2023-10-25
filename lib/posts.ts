@@ -18,8 +18,7 @@ export async function getPostByName(
 ): Promise<BlogPost | undefined> {
   const res = await fetch(
     `https://raw.githubusercontent.com/bwestwood11/waterstreet-blog-posts/main/${fileName}`,
-    
-    { cache: "no-cache",
+    {
       headers: {
         Accept: "application/vnd.github.v3+json",
         Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
@@ -27,9 +26,9 @@ export async function getPostByName(
       },
     }
   );
-  console.log("response from getPostName", res);
+
   if (!res.ok) return undefined;
-  
+
   const rawMDX = await res.text();
 
   if (rawMDX === "404: Not Found") return undefined;
@@ -85,7 +84,6 @@ export async function getPostsMeta(): Promise<Meta[] | undefined> {
   const res = await fetch(
     "https://api.github.com/repos/bwestwood11/waterstreet-blog-posts/git/trees/main?recursive=1",
     {
-        cache: "no-cache",
       headers: {
         Accept: "application/vnd.github.v3+json",
         Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
@@ -93,7 +91,7 @@ export async function getPostsMeta(): Promise<Meta[] | undefined> {
       },
     }
   );
-  console.log("response from getPostsMeta", res);
+
   if (!res.ok) return undefined;
 
   const repoFiletree: FileTree = await res.json();

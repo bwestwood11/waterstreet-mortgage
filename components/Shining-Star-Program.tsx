@@ -1,6 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import { Button } from "./ui/button";
+import { Button } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
+import { Montserrat } from "next/font/google";
+
+const montserrat = Montserrat({ subsets: ["latin"] });
 
 const ShiningStar = () => {
   return (
@@ -39,7 +43,7 @@ const ShiningStar = () => {
         aria-hidden="true"
       ></div>
       <div className="overflow-hidden">
-        <div className="mx-auto max-w-7xl px-6 pb-10 pt-24 lg:px-8 lg:pt-16">
+        <div className="mx-auto max-w-7xl px-6 pb-10 pt-24 lg:px-8 lg:pt-10">
           <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
             <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
               <Image
@@ -48,8 +52,9 @@ const ShiningStar = () => {
                 width={200}
                 height={200}
                 className="mb-6"
+                priority
               />
-              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+              <h1 className={cn(montserrat.className, "text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl")}>
                 Shining Star Hero Loan Program
               </h1>
               <p className="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">

@@ -1,4 +1,5 @@
 import FAQ from '@/components/FAQs'
+import ShiningStar from '@/components/Shining-Star-Program'
 import WhatWeOffer from '@/components/What-We-Offer'
 import { Metadata } from 'next'
 
@@ -16,6 +17,7 @@ const LoansPage = () => {
   return (
     <div>
       <WhatWeOffer />
+      <ShiningStar />
       <FAQ />
     </div>
   )

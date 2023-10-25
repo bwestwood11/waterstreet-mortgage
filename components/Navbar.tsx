@@ -121,19 +121,6 @@ const Navbar = () => {
                         </Link>
                       </NavigationMenuLink>
                     </li>
-                    <ListItem href="/loan-programs" title="FHA Loan">
-                      Type of mortgage that requires a smaller down payment and
-                      is insured by the government, making it accessible for
-                      homebuyers with lower savings.
-                    </ListItem>
-                    <ListItem
-                      href="/loan-programs"
-                      title="Conventional Loan"
-                    >
-                      Type of mortgage not backed by the government, typically
-                      requiring a larger down payment and stricter credit
-                      qualifications.
-                    </ListItem>
                     <ListItem
                       href="/loan-programs"
                       title="Shining Star Hero Program"
@@ -141,6 +128,17 @@ const Navbar = () => {
                       Special loan program to server educators, first
                       responders, healthcare workers, law enforcement, active
                       duty military, and veterans.
+                    </ListItem>
+                    <ListItem href="/loan-programs" title="FHA Loan">
+                      Type of mortgage that requires a smaller down payment and
+                      is insured by the government, making it accessible for
+                      homebuyers with lower savings.
+                    </ListItem>
+
+                    <ListItem href="/loan-programs" title="Conventional Loan">
+                      Type of mortgage not backed by the government, typically
+                      requiring a larger down payment and stricter credit
+                      qualifications.
                     </ListItem>
                   </ul>
                 </NavigationMenuContent>
@@ -170,9 +168,12 @@ const Navbar = () => {
             </NavigationMenuList>
           </NavigationMenu>
         </div>
-        <div className="lg:flex hidden">
+        <Link href='/contact'>
+           <div className="lg:flex hidden">
           <Button>Apply Today</Button>
         </div>
+        </Link>
+       
         <div className="flex lg:hidden">
           <Sheet>
             <SheetTrigger>

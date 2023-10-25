@@ -3,6 +3,7 @@ import React from 'react'
 import { Montserrat } from 'next/font/google'
 import { cn } from '@/lib/utils'
 import { Button } from './ui/button'
+import Link from 'next/link'
 
 
 const montserrat = Montserrat({ subsets: ['latin'] })
@@ -33,12 +34,16 @@ const Hero = () => {
             Bringing Welcome Home, One Mortgage at a Time. Experience the difference with our friendly team dedicated to making your home ownership dreams come true. Welcome to Tampa Bay!   
             </p>
             <div className='flex flex-col sm:flex-row gap-4 mt-6'>
-                <Button size="lg" variant='default' className="w-3/4 font-bold">
+            <Link href='/refinance-a-home'> 
+                <Button size="lg" variant='default' className="w-full font-bold p-7 hover:scale-105 transition ease-in-out">
                     Refinance a Home
                 </Button>
-                <Button size="lg" variant='outline' className="w-3/4 font-bold">
+                </Link>
+                <Link href='/buy-a-home'> 
+                <Button size="lg" variant='outline' className="w-full font-bold p-7 hover:scale-105 transition ease-in-out">
                     Buy a Home
                 </Button>
+                </Link>
             </div>
           </div> 
         </div>

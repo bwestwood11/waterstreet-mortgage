@@ -2,14 +2,15 @@ import ListItem from "@/components/ListItem";
 import { getPostsMeta } from "@/lib/posts";
 import { Metadata } from "next";
 
+export const revalidate = 10;
 
 export default async function BlogPage() {
   const posts = await getPostsMeta();
   console.log('posts', posts);
+  
   if (!posts) {
     return <p>Sorry, no posts are available.</p>;
   }
-
 
   return (
     <div className="bg-white py-24 sm:py-32">

@@ -29,7 +29,7 @@ const WhyUs = () => {
             <p className="mb-1">Waterstreet Mortgage</p>
             <h3 className={cn(
             montserrat.className,
-            "font-extrabold text-4xl"
+            "text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl"
           )}>
               Why Should You Choose Us?
             </h3>

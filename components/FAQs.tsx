@@ -11,7 +11,7 @@ import Link from "next/link"
 
 const FAQ = () => {
   return (
-    <div className="w-full flex lg:gap-4 gap-10 lg:flex-row flex-col py-8 max-w-6xl mx-auto px-8">
+    <div className="w-full flex lg:gap-4 gap-10 lg:flex-row flex-col py-20 max-w-6xl mx-auto px-8">
         <div className="basis-1/2">
            <div className="text-center lg:text-left">
             <h2 className="font-extrabold text-4xl lg:pr-8">Frequently Asked Questions</h2>
