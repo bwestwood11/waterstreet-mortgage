@@ -48,7 +48,7 @@ const ShiningStar = () => {
             <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
               <Image
                 src="/shining-star-logo.png"
-                alt=""
+                alt="shining star program logo"
                 width={200}
                 height={200}
                 className="mb-6"
