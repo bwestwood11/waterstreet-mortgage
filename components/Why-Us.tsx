@@ -35,7 +35,7 @@ const WhyUs = () => {
             </h3>
             <p className="mt-5 text-sm leading-7 text-gray-600">
               At Waterstreet Mortgage, we are your top choice for all your
-              mortgage needs in Tampa Bay. Our team is not only licensed to
+              mortgage needs in Tampa. Our team is not only licensed to
               conduct business in the state of Florida, ensuring that we have a
               deep understanding of the local market, but we also make ourselves
               available 24/7 to provide you with a better buying experience. We
