@@ -40,7 +40,7 @@ const programs = [
   {
     name: "Renovation House",
     icon: MdOutlineConstruction,
-    description: "Renovating a house is a transformative process that revitalizes and enhances a property, increasing its value and making it a more comfortable and aesthetically pleasing place to call home! Whether it's a small update or a complete overhaul, let us help you secure the appropriate loan necessary."
+    description: "Renovating a house is a transformative process that revitalizes and enhances a property, increasing its value and making it a more comfortable and aesthetically pleasing place to call home. Whether it's a small update or a complete overhaul, let us help you secure the appropriate loan necessary."
   },
   {
     name: "Conventional Loans",
