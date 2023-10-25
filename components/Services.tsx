@@ -14,7 +14,7 @@ const services = [
   {
     name: "Conventional Loans",
     description:
-      "Conventional loans, available through our mortgage brokerage, are a secure and flexible choice for homebuyers. These mortgage options, not backed by government agencies, offer competitive interest rates and tailored terms, making your homeownership dreams a reality.",
+      "Conventional loans, available through our mortgage brokerage, are a secure and flexible choice for home buyers. These mortgage options, not backed by government agencies, offer competitive interest rates and tailored terms, making your homeownership dreams a reality.",
     icon: BsHouse,
     image: '/conventional-loans.png'
   },
