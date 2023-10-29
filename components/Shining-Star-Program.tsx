@@ -47,7 +47,7 @@ const ShiningStar = () => {
           <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
             <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
               <Image
-                src="/shining-star-logo.png"
+                src="/shining-star.png"
                 alt="shining star program logo"
                 width={200}
                 height={200}
