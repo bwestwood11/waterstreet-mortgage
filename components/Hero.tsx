@@ -31,7 +31,7 @@ const Hero = () => {
               Unlock Your Dream Home
             </h2>
             <p className="mt-6 text-white font-normal leading-6">
-            Bringing Welcome Home, One Mortgage at a Time. Experience the difference with our friendly team dedicated to making your home ownership dreams come true. Welcome to Tampa Bay!   
+            Bringing Welcome Home, One Mortgage at a Time. Experience the difference with our friendly team dedicated to making your home ownership dreams come true. Welcome to Florida!   
             </p>
             <div className='flex flex-col sm:flex-row gap-4 mt-6'>
             <Link href='/refinance-a-home'> 

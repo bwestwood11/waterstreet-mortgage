@@ -11,22 +11,22 @@ import {FcGoogle} from 'react-icons/fc'
 const reviews = [
   {
     id: 1,
-    name: "joey Albino",
-    text: "Our company has been using competitive edge junk removal for a few years now. There is no other company we will use because these guys are the most efficient, reliable, trustworthy, and over all good people do keep doing business with. I will highly recommend these guys to anyone in the construction and roofing business",
+    name: "Jessica Wells",
+    text: "WaterStreet Mortgage has been exceptional throughout our homebuying journey. Their team is incredibly knowledgeable and guided us step by step, making the process seamless and stress-free. We couldn't be happier with our new home, and it's all thanks to their dedication and expertise.",
     date: '2 months ago',
     image: '/joey.png'
   },
   {
     id: 2,
-    name: "Dylan Rutledge",
-    text: "Very impressed with Brian and his team! I&apos;ve had horror stories with other companies in the past. I can honestly say I will never go to another company again. They were on time, respectful, great customer service, and got the job done a lot quicker than I was expecting. Would highly recommend this company!",
+    name: "Duncan Rutledge",
+    text: "I had a positive experience working with WaterStreet Mortgage for my refinance. They provided competitive rates and made the paperwork easy to understand. I would recommend them to anyone looking for a mortgage lender.",
     date: 'a month ago',
     image: '/dylan.png'
   },
   {
     id: 3,
-    name: "Sally Welch",
-    text: "Professional. Prompt. Friendly and nice. Extremely competitive rates! Don&apos;t hesitate to hire competitive edge, junk removal… They did a super terrible job for me!! I sent out a request for the job on Sunday evening and they were at my house Tuesday morning.",
+    name: "Sara Welch",
+    text: "WaterStreet Mortgage exceeded my expectations. They went above and beyond to secure a mortgage for my first home. The team was responsive, attentive, and ensured I got a great deal. I highly recommend their services to anyone in need of a mortgage lender who truly cares about their clients.",
     date: 'a month ago',
     image: '/sally.png'
   },

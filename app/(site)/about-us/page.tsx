@@ -33,7 +33,7 @@ const AboutPage = () => {
   return (
     <section className="w-full">
       <div
-        className="relative isolate -z-10 overflow-hidden bg-gradient-to-b from-indigo-100/20"
+        className="relative isolate overflow-hidden bg-gradient-to-b from-indigo-100/20"
         style={{ pointerEvents: "auto" }}
       >
         <div

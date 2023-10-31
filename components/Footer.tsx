@@ -2,18 +2,18 @@ import Image from "next/image"
 
 const navigation = {
     mortgages: [
-      { name: 'FHA Loan', href: '#' },
-      { name: 'Conventional Loan', href: '#' },
-      { name: 'VA Loan', href: '#' },
-      { name: 'Insights', href: '#' },
+      { name: 'FHA Loan', href: '/loan-programs' },
+      { name: 'Conventional Loan', href: '/loan-programs' },
+      { name: 'VA Loan', href: '/loan-programs' },
+      { name: 'Insights', href: '/loan-programs' },
     ],
     company: [
-      { name: 'About', href: '#' },
-      { name: 'Blog', href: '#' },
-      { name: 'Contact', href: '#' },
+      { name: 'About', href: '/about-us' },
+      { name: 'Blog', href: '/blog' },
+      { name: 'Contact', href: '/contact' },
     ],
     legal: [
-         { name: 'Privacy', href: '#' },
+         { name: 'Privacy', href: '/privacy-policy' },
     ],
     social: [
       {

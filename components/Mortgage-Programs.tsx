@@ -11,8 +11,7 @@ import { RxAvatar } from "react-icons/rx";
 import Image from "next/image";
 import { BiRightArrowAlt, BiCheck } from "react-icons/bi";
 import Link from "next/link";
-import {MdOutlineConstruction} from "react-icons/md";
-
+import { MdOutlineConstruction } from "react-icons/md";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
@@ -20,32 +19,38 @@ const programs = [
   {
     name: "First Time Home Buyer",
     icon: BiSolidBuildingHouse,
-    description: "A first-time homebuyer loan is a specialized mortgage program designed to assist individuals purchasing their first home. It typically offers favorable terms, including lower down payments and interest rates, to make homeownership more accessible for those who are new to the real estate market.",
+    description:
+      "A first-time homebuyer loan is a specialized mortgage program designed to assist individuals purchasing their first home. It typically offers favorable terms, including lower down payments and interest rates, to make homeownership more accessible for those who are new to the real estate market.",
   },
   {
-    name: "Apply for Loan",
+    name: "Second Mortgage Program",
     icon: RiMoneyDollarCircleFill,
-    description: "To apply for a mortgage loan, one typically starts by gathering financial documents, including income and credit history details. Next, you submit an application to us, who we assesses your eligibility, and if approved, guide you through the home loan process, from pre-approval to closing on your new home."
+    description:
+      "You can either choose a home equity loan or a Home Equity Line of Credit aka a HELOC. A home equity loan allows homeowners to borrow money using the equity in their property as collateral. These loans are often used for large expenses such as home improvements, debt consolidation, or education costs, with the house's value determining the borrowing limit. A Home Equity Line of Credit (HELOC) is a flexible financial tool that lets homeowners access a revolving line of credit based on the equity in their home. It's a convenient way to fund ongoing projects or expenses, offering the freedom to borrow as needed while paying interest only on the amount drawn.",
   },
   {
     name: "Refinancing Your Home",
     icon: BsHouse,
-    description: "Refinancing a home allows homeowners to secure a new mortgage with more favorable terms, often leading to lower monthly payments and potentially saving money in the long run. It's a smart financial strategy to consider when seeking to optimize your home financing."
+    description:
+      "Cash-out refinancing allows homeowners to refinance their mortgage for an amount greater than what they owe on their home, enabling them to receive cash in hand by borrowing against the equity they've built. In contrast, rate and term refinancing involves replacing an existing mortgage with a new one, primarily to secure a more favorable interest rate or to adjust the loan term without taking cash out, potentially reducing monthly payments or paying off the loan faster.",
   },
   {
-    name: "Capital Management",
+    name: "Down Payment Assistance Program",
     icon: TbHandFinger,
-    description: "Capital management for home loans involves effectively handling and optimizing financial resources related to mortgage lending. It encompasses actions like prudent allocation of funds, risk assessment, and strategic decision-making to ensure the stability and profitability of a home loan portfolio for lenders or financial institutions. Efficient capital management is crucial in the housing finance industry to maintain healthy lending practices and manage potential risks."
+    description:
+      "Down payment assistance programs offer financial support to prospective homebuyers by providing funds to cover a portion of their down payment, making homeownership more affordable and accessible. These initiatives are especially beneficial for those with limited savings, helping them achieve their goal of owning a home.",
   },
   {
-    name: "Renovation House",
+    name: "Bridge Loans",
     icon: MdOutlineConstruction,
-    description: "Renovating a house is a transformative process that revitalizes and enhances a property, increasing its value and making it a more comfortable and aesthetically pleasing place to call home. Whether it's a small update or a complete overhaul, let us help you secure the appropriate loan necessary."
+    description:
+      'Bridge loans are short-term financing options designed to "bridge" the gap between the purchase of a new property and the sale of an existing one. They provide homeowners with quick access to capital to facilitate a smooth transition without the need for a long-term commitment. These loans usually have a duration of 12 to 18 months and are great options for those who have investment properties',
   },
   {
     name: "Conventional Loans",
     icon: BiCheck,
-    description: "These loans are typically offered by private lenders and banks, and they follow the guidelines set by Fannie Mae and Freddie Mac. Conventional loans are a popular choice for homebuyers with strong credit profiles and the ability to make a down payment."
+    description:
+      "These loans are typically offered by private lenders and banks, and they follow the guidelines set by Fannie Mae and Freddie Mac. Conventional loans are a popular choice for homebuyers with strong credit profiles and the ability to make a down payment.",
   },
 ];
 
@@ -92,7 +97,11 @@ const MortgagePrograms = () => {
           Mortgage Programs
         </h2>
         <p className="text-center leading-8 text-gray-600 mt-5 max-w-lg mx-auto">
-        We take pride in offering the finest loan options available in the great state of Florida, providing our clients with top-notch financial solutions tailored to their specific needs. Our commitment to excellence sets us apart as the premier choice for those seeking the best in lending services.
+          We take pride in offering the finest loan options available in the
+          great state of Florida, providing our clients with top-notch financial
+          solutions tailored to their specific needs. Our commitment to
+          excellence sets us apart as the premier choice for those seeking the
+          best in lending services.
         </p>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 max-6xl mx-auto mt-8">
           {programs.map((program, index) => (
@@ -141,7 +150,11 @@ const MortgagePrograms = () => {
                 {programContent.name}
               </h2>
             )}
-            {programContent && <p className="text-gray-600 mt-3 leading-7 tracking-tight">{programContent.description}</p>}
+            {programContent && (
+              <p className="text-gray-600 mt-3 leading-7 tracking-tight">
+                {programContent.description}
+              </p>
+            )}
             <Link href="/mortgage-programs">
               <div className="flex gap-2 items-center mt-8 text-green-500 font-bold">
                 <span>

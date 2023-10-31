@@ -3,12 +3,13 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { Montserrat } from "next/font/google";
+import Link from "next/link";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 const ShiningStar = () => {
   return (
-    <div className="relative isolate -z-10">
+    <div className="relative isolate">
       <svg
         className="absolute inset-x-0 top-0 -z-10 h-[64rem] w-full stroke-gray-200 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]"
         aria-hidden="true"
@@ -65,9 +66,11 @@ const ShiningStar = () => {
                 Teachers, Healthcare Workers, Firefighters, Police Officers, and
                 Military.
               </p>
+              <Link href="/contact">
               <Button className="mt-6 cursor-pointer z-20">
                 Contact Us
               </Button>
+              </Link>
             </div>
             <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
               <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
