@@ -92,7 +92,7 @@ const Navbar = () => {
               width={250}
               height={250}
               alt="Waterstreet Mortgage Logo"
-              className="sm:w-full h-full"
+              className="sm:w-full h-full w-3/4"
             />
             {/* <p className={cn(montserrat.className, "uppercase font-bold sm:flex hidden sm:text-xl")}>Watersteet Mortgage</p> */}
           </div>
@@ -168,12 +168,12 @@ const Navbar = () => {
             </NavigationMenuList>
           </NavigationMenu>
         </div>
-        <Link href='/contact'>
-           <div className="lg:flex hidden">
-          <Button>Apply Today</Button>
-        </div>
+        <Link href="/contact">
+          <div className="lg:flex hidden">
+            <Button>Apply Today</Button>
+          </div>
         </Link>
-       
+
         <div className="flex lg:hidden">
           <Sheet>
             <SheetTrigger>
@@ -185,7 +185,7 @@ const Navbar = () => {
                   <div
                     className={cn(
                       montserrat.className,
-                      "flex font-extrabold gap-3 uppercase items-center"
+                      "flex font-extrabold gap-3 uppercase mt-10 items-center"
                     )}
                   >
                     <Image
@@ -194,7 +194,15 @@ const Navbar = () => {
                       width={50}
                       height={50}
                     />
-                    <Link href="/">Waterstreet Mortgage</Link>
+                    <Link href="/">
+                      <Image
+                        src="/waterstreet-mortgage-text.png"
+                        width={250}
+                        height={250}
+                        alt="Waterstreet Mortgage Logo"
+                        className="w-full h-full"
+                      />
+                    </Link>
                   </div>
                 </SheetTitle>
                 <SheetDescription>
@@ -215,7 +223,9 @@ const Navbar = () => {
                     </li>
                   </ul>
                   <div className="mt-10 flex gap-6 mx-auto justify-center">
-                    <Button>Apply Today</Button>
+                    <Link href="/contact">
+                      <Button>Apply Today</Button>
+                    </Link>
                   </div>
                 </SheetDescription>
               </SheetHeader>

@@ -53,7 +53,7 @@ const Team = () => {
             <Image
               className="w-full h-3/4 rounded-2xl object-cover"
               src={person.imageUrl}
-              alt=""
+              alt="mortgage team member head shots"
               width={500}
               height={500}
               priority
@@ -63,7 +63,7 @@ const Team = () => {
             </h3>
             <p className="text-base leading-7 text-gray-600">{person.role}</p>
             <ul role="list" className="mt-6 flex flex-col gap-x-6">
-              <li>
+              <li className="mb-2">
                 <p className="text-gray-600 tracking-wide">{person.NMLS}</p>
               </li>
               <li>

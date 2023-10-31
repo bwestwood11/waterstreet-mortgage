@@ -33,7 +33,7 @@ const Hero = () => {
             <p className="mt-6 text-white font-normal leading-6">
             Bringing Welcome Home, One Mortgage at a Time. Experience the difference with our friendly team dedicated to making your home ownership dreams come true. Welcome to Florida!   
             </p>
-            <div className='flex flex-col sm:flex-row gap-4 mt-6'>
+            <div className='flex flex-col sm:flex-row gap-4 mt-6 px-10 sm:px-0'>
             <Link href='/refinance-a-home'> 
                 <Button size="lg" variant='default' className="w-full font-bold p-7 hover:scale-105 transition ease-in-out">
                     Refinance a Home

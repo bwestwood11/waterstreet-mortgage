@@ -79,6 +79,16 @@ const MortgagePrograms = () => {
 
   const imageName = `${formattedProgramName}.png`;
 
+  const splitDescriptionSecondMortgage =
+    programContent?.name === "Second Mortgage Program"
+      ? programContent.description.split("borrowing limit.")
+      : null;
+
+  const splitDescriptionRefinancing =
+    programContent?.name === "Refinancing Your Home"
+      ? programContent.description.split("they've built.")
+      : null;
+
   return (
     <div className="w-full bg-white h-full flex py-16 px-6">
       <div className="max-w-6xl mx-auto w-full">
@@ -143,19 +153,30 @@ const MortgagePrograms = () => {
             )}
           </div>
           <div className="basis-1/2">
-            {programContent && (
-              <h2
-                className={cn(montserrat.className, "font-extrabold text-xl")}
-              >
-                {programContent.name}
-              </h2>
-            )}
-            {programContent && (
+            {splitDescriptionSecondMortgage ? (
+              <>
+                <p className="text-gray-600 mt-3 leading-7 tracking-tight">
+                  {splitDescriptionSecondMortgage[0]}borrowing limit.
+                </p>
+                <p className="text-gray-600 mt-3 leading-7 tracking-tight">
+                  {splitDescriptionSecondMortgage[1]}
+                </p>
+              </>
+            ) : splitDescriptionRefinancing ? (
+              <>
+                <p className="text-gray-600 mt-3 leading-7 tracking-tight">
+                  {splitDescriptionRefinancing[0]}they've built
+                </p>
+                <p className="text-gray-600 mt-3 leading-7 tracking-tight">
+                  {splitDescriptionRefinancing[1]}
+                </p>
+              </>
+            ) : (
               <p className="text-gray-600 mt-3 leading-7 tracking-tight">
-                {programContent.description}
+                {programContent && programContent.description}
               </p>
             )}
-            <Link href="/mortgage-programs">
+            <Link href="/loan-programs">
               <div className="flex gap-2 items-center mt-8 text-green-500 font-bold">
                 <span>
                   <BiRightArrowAlt size="25" />
