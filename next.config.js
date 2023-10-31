@@ -7,7 +7,7 @@ const nextConfig = {
         protocol: "https",
         hostname: "raw.githubusercontent.com",
         port: "",
-        pathname: "/bwestwood11/waterstreet-mortgage-blogs/main/images/**",
+        pathname: "/bwestwood11/waterstreet-blog-posts/main/images/**",
       },
     ],
   },
