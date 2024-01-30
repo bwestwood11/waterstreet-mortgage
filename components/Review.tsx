@@ -36,7 +36,7 @@ const Reviews = () => {
   const [expandedState, setExpandedState] = useState<{ [key: number]: boolean }>({});
 
   const GoToGoogle = () => {
-    window.open('https://g.page/r/CQXPOeJYAYouEB0/review')
+    window.open('https://g.page/r/Ce6FR_vDRHaLEAI/review')
   }
 
   const toggleExpanded = (reviewId:number) => {
