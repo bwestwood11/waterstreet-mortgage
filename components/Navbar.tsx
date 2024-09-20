@@ -85,13 +85,13 @@ const Navbar = () => {
               src="/waterstreet-mortgage-nav-logo.png"
               width={50}
               height={50}
-              alt="Waterstreet Mortgage Logo"
+              alt="Wavelength Mortgage Logo"
             />
             <Image
               src="/waterstreet-mortgage-text.png"
               width={250}
               height={250}
-              alt="Waterstreet Mortgage Logo"
+              alt="Wavelength Mortgage Logo"
               className="sm:w-full h-full w-3/4"
             />
             {/* <p className={cn(montserrat.className, "uppercase font-bold sm:flex hidden sm:text-xl")}>Watersteet Mortgage</p> */}
@@ -199,7 +199,7 @@ const Navbar = () => {
                         src="/waterstreet-mortgage-text.png"
                         width={250}
                         height={250}
-                        alt="Waterstreet Mortgage Logo"
+                        alt="Wavelength Mortgage Logo"
                         className="w-full h-full"
                       />
                     </Link>

@@ -26,7 +26,7 @@ const WhyUs = () => {
         <div className="basis-1/2 flex items-start">
           <div className="border-l h-full lg:h-1/4 border-4 border-[#000080] mr-4" />
           <div className="flex flex-col">
-            <p className="mb-1">Waterstreet Mortgage</p>
+            <p className="mb-1">Wavelength Mortgage</p>
             <h3 className={cn(
             montserrat.className,
             "text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl"
@@ -34,7 +34,7 @@ const WhyUs = () => {
               Why Should You Choose Us?
             </h3>
             <p className="mt-5 text-sm leading-7 text-gray-600">
-              At Waterstreet Mortgage, we are your top choice for all your
+              At Wavelength Mortgage, we are your top choice for all your
               mortgage needs in Tampa. Our team is not only licensed to
               conduct business in the state of Florida, ensuring that we have a
               deep understanding of the local market, but we also make ourselves

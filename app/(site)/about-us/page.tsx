@@ -1,33 +1,11 @@
+
+
 import Image from "next/image";
 import { Montserrat } from "next/font/google";
 import { cn } from "@/lib/utils";
 import Team from "@/components/Team";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
-
-const people = [
-  {
-    name: "Kevin Tabares",
-    role: "Broker Owner",
-    imageUrl: "/Kevin.jpg",
-    NMLS: "NMLS# 1994473",
-    email: "ktabares@waterstreetmtg.com",
-  },
-  {
-    name: "Jeffrey Tabares",
-    role: "Broker Owner",
-    imageUrl: "/Jeffrey.jpg",
-    NMLS: "NMLS# 2105748",
-    email: "jtabares@waterstreetmtg.com",
-  },
-  {
-    name: "Haley Tubbs",
-    role: "Mortgage Broker",
-    imageUrl: "/Haley.jpg",
-    NMLS: "NMLS# 2082764",
-    email: "ahtubbs@waterstreetmtg.com",
-  },
-];
 
 const AboutPage = () => {
   return (

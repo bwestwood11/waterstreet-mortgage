@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.waterstreetmtg.com
+Host: https://www.wlmtg.com
 
 # Sitemaps
-Sitemap: https://www.waterstreetmtg.com/sitemap.xml
+Sitemap: https://www.wlmtg.com/sitemap.xml

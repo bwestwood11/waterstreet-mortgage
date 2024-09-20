@@ -59,7 +59,7 @@ const ShiningStar = () => {
                 Shining Star Hero Loan Program
               </h1>
               <p className="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
-                Waterstreet Mortgage specializes in helping our heroes achieve
+                Wavelength Mortgage specializes in helping our heroes achieve
                 the dream of homeownership. We offer the shining star hero
                 program to help our heroes get into a home with little to no
                 money down. We offer this program to the following heroes:

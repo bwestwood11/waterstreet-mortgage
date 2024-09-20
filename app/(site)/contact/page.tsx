@@ -187,7 +187,7 @@ const router = useRouter();
             <figure className="mt-10">
               <blockquote className="text-lg font-semibold leading-8 text-gray-900">
                 <p>
-                  “Waterstreet Mortgage provides a seamless and supportive home
+                 Wavelength Mortgage provides a seamless and supportive home
                   financing experience, tailored to your needs.”
                 </p>
               </blockquote>

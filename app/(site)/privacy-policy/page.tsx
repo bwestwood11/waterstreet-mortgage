@@ -8,7 +8,7 @@ const PrivacyPage = () => {
                <p className='text-lsm font-normal my-3'>Last updated: 10-30-2023</p>
                <h2 className='text-2xl font-extrabold tracking-wide my-3'>Introduction</h2>
                <p className='text-gray-600 leading-7'>
-               At Waterstreet Mortgage, LLC, we are dedicated to safeguarding your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and protect your information when you use our mortgage services. We do not sell or share your personal information with third parties, except as described in this policy.
+               At Wavelength Mortgage, LLC, we are dedicated to safeguarding your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and protect your information when you use our mortgage services. We do not sell or share your personal information with third parties, except as described in this policy.
                </p>
                <h2 className='text-2xl font-extrabold tracking-wide my-3'>Information We Collect</h2>
                <h3 className='font-semibold mb-2'>Personal Information</h3>
@@ -76,8 +76,8 @@ const PrivacyPage = () => {
                 </ul>
                 <h2 className='text-2xl font-extrabold tracking-wide my-3'>Contact Us</h2>
                 <p className='text-gray-600 leading-7 mb-3'>If you have any questions, concerns, or requests regarding your personal information or this Privacy Policy, please contact us at:</p>
-                <p>Waterstreet Mortgage, LLC</p>
-                <p>13506 N. Rome Ave Tampa, FL 33613</p>
+                <p>Wavelength Mortgage, LLC</p>
+                <p>11311 Georgetown cir Tampa, FL 33635</p>
                 <a href='tel:+1813500-5479'><p>813-400-5479</p></a> 
                <a href='mailto:info@waterstreetmtg.com'><p>info@waterstreetmtg.com</p></a> 
          </div>

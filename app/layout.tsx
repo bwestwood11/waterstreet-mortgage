@@ -9,7 +9,7 @@ import {Toaster} from 'react-hot-toast'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Waterstreet Mortgage ',
+  title: 'Wavelength Mortgage ',
   description: 'Mortgage brokerage in the Tampa Bay area that specializes in a variety of loan programs.',
 }
 
@@ -21,11 +21,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+     
         <Toaster 
         position='top-center'
         />
         <Header />
         <Navbar />
+  
         {children}
         <Footer />
         </body>

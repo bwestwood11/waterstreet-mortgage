@@ -12,21 +12,21 @@ const reviews = [
   {
     id: 1,
     name: "Jessica Wells",
-    text: "WaterStreet Mortgage has been exceptional throughout our homebuying journey. Their team is incredibly knowledgeable and guided us step by step, making the process seamless and stress-free. We couldn't be happier with our new home, and it's all thanks to their dedication and expertise.",
+    text: "Wavelength Mortgage has been exceptional throughout our homebuying journey. Their team is incredibly knowledgeable and guided us step by step, making the process seamless and stress-free. We couldn't be happier with our new home, and it's all thanks to their dedication and expertise.",
     date: '2 months ago',
     image: '/joey.png'
   },
   {
     id: 2,
     name: "Duncan Rutledge",
-    text: "I had a positive experience working with WaterStreet Mortgage for my refinance. They provided competitive rates and made the paperwork easy to understand. I would recommend them to anyone looking for a mortgage lender.",
+    text: "I had a positive experience working with Wavelength Mortgage for my refinance. They provided competitive rates and made the paperwork easy to understand. I would recommend them to anyone looking for a mortgage lender.",
     date: 'a month ago',
     image: '/dylan.png'
   },
   {
     id: 3,
     name: "Sara Welch",
-    text: "WaterStreet Mortgage exceeded my expectations. They went above and beyond to secure a mortgage for my first home. The team was responsive, attentive, and ensured I got a great deal. I highly recommend their services to anyone in need of a mortgage lender who truly cares about their clients.",
+    text: "Wavelength Mortgage exceeded my expectations. They went above and beyond to secure a mortgage for my first home. The team was responsive, attentive, and ensured I got a great deal. I highly recommend their services to anyone in need of a mortgage lender who truly cares about their clients.",
     date: 'a month ago',
     image: '/sally.png'
   },

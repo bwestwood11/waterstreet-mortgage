@@ -59,13 +59,13 @@ const navigation = {
                 src="/equal-housing-logo.png"
                 width={250}
                 height={250}
-                alt="Waterstreet-Mortgage"
+                alt="Wavelength-Mortgage"
               /> 
               <p className="text-sm leading-6 text-gray-600">
                 -NMLS #2533090 
               </p>
               <p className="text-sm leading-6 text-gray-600">
-                13506 N. Rome Ave Tampa, FL 33613
+                11311 Georgetown cir Tampa, FL 33635
               </p>
               <p className="text-sm leading-6 text-gray-600">
                 813-400-5479
@@ -123,7 +123,7 @@ const navigation = {
             </div>
           </div>
           <div className="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24">
-            <p className="text-xs leading-5 text-gray-500">&copy; 2023 Waterstreet Mortgage, Inc. All rights reserved.</p>
+            <p className="text-xs leading-5 text-gray-500">&copy; 2024 Wavelength Mortgage, Inc. All rights reserved.</p>
           </div>
         </div>
       </footer>

@@ -13,15 +13,6 @@ const people = [
       "https://www.instagram.com/therealkevintabares/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==",
   },
   {
-    name: "Jeffrey Tabares",
-    role: "Broker Owner",
-    imageUrl: "/Jeffrey.jpg",
-    NMLS: "NMLS# 2105748",
-    email: "jtabares@waterstreetmtg.com",
-    linkedIn: "https://www.linkedin.com/in/jeffreytabares/",
-    Instagram: "https://www.instagram.com/tabares28k/?hl=en",
-  },
-  {
     name: "Haley Tubbs",
     role: "Mortgage Broker",
     imageUrl: "/Haley.jpg",
