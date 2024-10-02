@@ -7,7 +7,7 @@ const people = [
     role: "Broker Owner",
     imageUrl: "/Kevin.jpg",
     NMLS: "NMLS# 1994473",
-    email: "ktabares@waterstreetmtg.com",
+    email: "ktabares@wlmtg.com",
     linkedIn: "https://www.linkedin.com/in/kevin-tabares/",
     Instagram:
       "https://www.instagram.com/therealkevintabares/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==",
@@ -17,7 +17,7 @@ const people = [
     role: "Mortgage Broker",
     imageUrl: "/Haley.jpg",
     NMLS: "NMLS# 2082764",
-    email: "ahtubbs@waterstreetmtg.com",
+    email: "ahtubbs@wlmtg.com",
     linkedIn: "https://www.linkedin.com/in/amandahaleytubbs/",
     Instagram: "https://www.instagram.com/haytubbs/?hl=en",
   },
@@ -37,7 +37,7 @@ const Team = () => {
       </div>
       <ul
         role="list"
-        className="mx-auto mt-20 grid max-w-2xl z-[100] grid-cols-1 gap-x-16 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3"
+        className="mx-auto mt-20 grid max-w-2xl z-[100] grid-cols-1 gap-x-16 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none"
       >
         {people.map((person) => (
           <li key={person.name}>
