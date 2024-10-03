@@ -196,7 +196,7 @@ const Navbar = () => {
                     />
                     <Link href="/">
                       <Image
-                        src="/waterstreet-mortgage-text.png"
+                        src="/wavelength-mortgage-logo.png"
                         width={250}
                         height={250}
                         alt="Wavelength Mortgage Logo"
